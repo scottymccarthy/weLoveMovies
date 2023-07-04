@@ -1,7 +1,7 @@
 const router = require("express").Router({ mergeParams: true });
 const controller = require("./controller");
 const reviewsRouter = require("../reviews/router");
-const theaterRouter = require("../theaters/router");
+const theaterRouter = require("../theatres/router");
 const methodNotAllowed = require("../utils/errors/methodNotAllowed");
 
 router.route("/").get(controller.list).all(methodNotAllowed);
