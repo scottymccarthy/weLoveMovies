@@ -4,7 +4,7 @@ const cors = require("cors");
 
 const moviesRouter = require("./movies/router");
 const reviewsRouter = require("./reviews/router");
-const theatersRouter = require("./theaters/router");
+const theatersRouter = require("./theatres/router");
 const notFound = require("./utils/errors/notFound");
 const errorHandler = require("./utils/errors/errorHandler");
 
