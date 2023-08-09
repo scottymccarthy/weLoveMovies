@@ -1,5 +1,5 @@
-const service = require("./service");
-const { theaterShowing } = require("../movies/service");
+const service = require("./theaters.service");
+const { theaterShowing } = require("../movies/movies.service");
 const asyncErrorBoundary = require("../utils/errors/asyncErrorBoundary");
 
 
