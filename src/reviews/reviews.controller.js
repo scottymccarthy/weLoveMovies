@@ -1,4 +1,4 @@
-const service = require("./service");
+const service = require("./reviews.service");
 const asyncErrorBoundary = require("../utils/errors/asyncErrorBoundary");
 
 //Gets all reviews for a movie
